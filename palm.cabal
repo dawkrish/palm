@@ -24,7 +24,7 @@ library
     exposed-modules:  MyLib
     -- other-modules:
     -- other-extensions:
-    build-depends:    base ^>=4.17.2.1
+    build-depends:    base >=4.17.2.1
     hs-source-dirs:   src
     default-language: Haskell2010
 
@@ -34,7 +34,7 @@ executable palm
     -- other-modules:
     -- other-extensions:
     build-depends:
-        base ^>=4.17.2.1,
+        base >=4.17.2.1,
         palm
 
     hs-source-dirs:   app
@@ -49,5 +49,5 @@ test-suite palm-test
     hs-source-dirs:   test
     main-is:          Main.hs
     build-depends:
-        base ^>=4.17.2.1,
+        base >=4.17.2.1,
         palm
